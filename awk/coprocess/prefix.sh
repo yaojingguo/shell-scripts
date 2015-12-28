@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-printf "prefix: %s\n" $1
+read -r line
+printf "prefix: %s" $line
